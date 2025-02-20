@@ -19,7 +19,7 @@ public class BaseAmazonClass {
  
  	public BaseAmazonClass() {
  		try {
-			 FileInputStream file=new FileInputStream("E:\\Pardeep\\Testing\\JAVA\\workspace\\AmazonProject\\src\\test\\java\\Environmentvariables\\Config.properties");
+			 FileInputStream file=new FileInputStream("src\\test\\java\\Environmentvariables\\Config.properties");
 			 prop.load(file);
  		}
  		catch(FileNotFoundException e) {
